@@ -5,3 +5,33 @@
   width: 185px;
   height: 70px;
 }
+
+.blue {
+  position: absolute;
+  background: rgba(0, 102, 255, 0.7);
+}
+
+#social {
+  height: 90px;
+}
+
+.works {
+  background-color: #f1f1f1;
+}
+
+.services {
+  background-color: #4a91fe;
+}
+
+footer {
+  background-color: #606060;
+}
+
+#title {
+  color: #4a91fe;
+  font-weight: bold;
+}
+
+.bawah:hover {
+  color: #4a91fe;
+}
