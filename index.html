@@ -8,61 +8,74 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
 
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      #title {
+        color: #4a91fe;
+        font-weight: bold;
+      }
+    </style>
 
-    <title>Portofolio | Radithya</title>
+    <title>Portfolio | Home</title>
   </head>
   <body>
     <!-- Navbar -->
-    <header class="d-flex flex-wrap justify-content-center py-3">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none mx-4">
-        <img src="img/logo.png" alt="bram" />
-        <span class="fs-2 fw-bold mb-3" style="color: #4a91fe">ram</span>
-      </a>
-
-      <ul class="nav nav-pills py-2">
-        <li class="nav-item"><a href="#" class="nav-link active" style="background-color: #4a91fe" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: #4a91fe">About</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: #4a91fe">Services</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: #4a91fe">Portofolio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: #4a91fe">Contact</a></li>
-      </ul>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand pb-3" style="color: #4a91fe" href="#"><img src="img/logo.png" alt="bram" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-bold">
+            <li class="nav-item">
+              <a class="nav-link active" style="color: #4a91fe" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- Akhir Navbar -->
 
     <!-- Banner -->
     <div class="blue"></div>
-    <div id="banner" class="px-4 py-5 mb-5" style="color: white; background-image: url('img/banner.png'); background-size: cover; height: 450px">
+    <div id="banner" class="px-4 py-5 mb-5 text-light" style="background-image: url('img/banner.png'); background-size: cover; height: 450px">
       <div id="helo" class="mx-auto mb-4"><h1 class="display-5 fw-bold my-5 text-center">Hello</h1></div>
       <div class="col-lg-6 mx-auto text-center">
-        <h2>My name is Radithya Syidqi Rusnandar</h2>
+        <h2>Your Full Name Here</h2>
         <p class="lead mb-4">Student | Programmer</p>
       </div>
       <div id="social" class="py-5">
-        <img src="img/social/facebook.png" class="mx-2" alt="facebook" />
-        <a href="https://instagram.com/rdhtsdq_?utm_medium=copy_link"><img src="img/social/instagram.png" class="mx-2" alt="instagram" /></a>
-        <img src="img/social/twitter.png" class="mx-2" alt="Twitter" />
-        <img src="img/social/whatsapp.png" class="mx-2" alt="Whatsapp" />
+        <a href="#"><img src="img/social/facebook.png" class="mx-2" alt="facebook" /></a>
+        <a href="#"><img src="img/social/instagram.png" class="mx-2" alt="instagram" /></a>
+        <a href="#"><img src="img/social/twitter.png" class="mx-2" alt="Twitter" /></a>
+        <a href="#"><img src="img/social/whatsapp.png" class="mx-2" alt="Whatsapp" /></a>
       </div>
     </div>
-
     <!-- Akhir Banner -->
 
     <!-- About Me -->
     <div class="container mb-5">
       <div class="row">
-        <div class="col-5 ms-auto">
-          <img src="img/pp.jpg" alt="photo" style="width: 407px; height: 610px" />
+        <div class="col-sm-6 col-12 mb-5">
+          <img src="img/pp.jpg" alt="photo" class="img-fluid" style="width: 407px" />
         </div>
-        <div class="col-6 ms-auto">
-          <h1 class="fw-bold border-bottom">About</h1>
+        <div class="col-lg-6 col-12 ms-auto">
+          <h1 class="fw-bold">About</h1>
           <p class="fs-3 mt-5 fw-bold" style="color: #4a91fe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, sit!</p>
-          <p class="fs-5">
+          <p class="">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsa deserunt cumque nesciunt eum officia dolore beatae libero eius recusandae totam incidunt repellat temporibus dolorum accusamus fugit esse adipisci quo
             quibusdam similique culpa, expedita nam. Aliquam reprehenderit corporis commodi quisquam quae enim dolorum pariatur similique? Eligendi iusto laborum inventore alias.
           </p>
-          <div class="fw-bold fs-5">Nama : Radithya</div>
+          <div class="fw-bold fs-5">Name : Your Name Here</div>
           <div class="row my-4 fw-bold">
             <div class="col">Age : 17</div>
             <div class="col">Location : Indonesia</div>
@@ -77,34 +90,34 @@
     <!-- Akhir About Me -->
 
     <!-- Services -->
-    <section class="services">
+    <section class="services" style="background-color: #4a91fe">
       <div class="container text-center py-5">
         <div class="row" style="color: white">
           <div class="col-12 fs-1 fw-bold my-4">My Skills</div>
-          <div class="col-6 fs-5 mx-auto mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, minima consequuntur? Reiciendis ipsa rem qui?</div>
+          <div class="col-sm-6 col-12 fs-5 mx-auto mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, minima consequuntur? Reiciendis ipsa rem qui?</div>
         </div>
         <div class="row mb-5 mx-auto">
-          <div class="col-4">
+          <div class="col">
             <div class="card" style="width: 18rem">
-              <img src="img/Services/1.png" class="card-img-top" alt="1" />
+              <img src="img/Skills/1.png" class="card-img-top" alt="1" />
               <div class="card-body">
                 <h4 id="title">Web Design</h4>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam, doloremque fugit neque mollitia dignissimos!</p>
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col">
             <div class="card" style="width: 18rem">
-              <img src="img/Services/2.png" class="card-img-top" alt="2" />
+              <img src="img/Skills/2.png" class="card-img-top" alt="2" />
               <div class="card-body">
                 <h4 id="title">Code</h4>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam, doloremque fugit neque mollitia dignissimos!</p>
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col">
             <div class="card" style="width: 18rem">
-              <img src="img/Services/3.png" class="card-img-top" alt="3" />
+              <img src="img/Skills/3.png" class="card-img-top" alt="3" />
               <div class="card-body">
                 <h4 id="title">Customizability</h4>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam, doloremque fugit neque mollitia dignissimos!</p>
@@ -112,10 +125,10 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row mx-auto">
           <div class="col">
             <div class="card" style="width: 18rem">
-              <img src="img/Services/4.png" class="card-img-top" alt="4" />
+              <img src="img/Skills/4.png" class="card-img-top" alt="4" />
               <div class="card-body">
                 <h4 id="title">Mobile Design</h4>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam, doloremque fugit neque mollitia dignissimos!</p>
@@ -124,7 +137,7 @@
           </div>
           <div class="col">
             <div class="card" style="width: 18rem">
-              <img src="img/Services/5.png" class="card-img-top" alt="5" />
+              <img src="img/Skills/5.png" class="card-img-top" alt="5" />
               <div class="card-body">
                 <h4 id="title">Social</h4>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam, doloremque fugit neque mollitia dignissimos!</p>
@@ -133,7 +146,7 @@
           </div>
           <div class="col">
             <div class="card" style="width: 18rem">
-              <img src="img/Services/6.png" class="card-img-top" alt="6" />
+              <img src="img/Skills/6.png" class="card-img-top" alt="6" />
               <div class="card-body">
                 <h4 id="title">Teaching</h4>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam, doloremque fugit neque mollitia dignissimos!</p>
@@ -153,43 +166,43 @@
             <h1 class="mt-5">My Works</h1>
           </div>
           <div class="col">
-            <p class="fs-5 pt-3 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab nesciunt, ex optio ratione magni.</p>
+            <p class="fs-md-5 pt-3 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab nesciunt, ex optio ratione magni.</p>
           </div>
         </div>
 
         <div class="row justify-content-center mb-5">
-          <div class="col-1 mx-3">
+          <div class="col-2 mx-3">
             <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked />
             <label class="btn btn-outline-primary fw-bold fs-5" for="success-outlined">All</label>
           </div>
-          <div class="col-1 mx-3">
+          <div class="col-2 mx-3">
             <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off" />
             <label class="btn btn-outline-primary fw-bold fs-5" for="danger-outlined">Code</label>
           </div>
-          <div class="col-1 mx-3">
+          <div class="col-2 mx-3">
             <input type="radio" class="btn-check" name="options-outlined" id="secondary-outlined" autocomplete="off" />
             <label class="btn btn-outline-primary fw-bold fs-5" for="secondary-outlined">Design</label>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-3 mx-4 my-3">
+          <div class="col mx-4 my-3">
             <img src="img/Works/1.jpg" style="width: 300px" alt="1" />
           </div>
-          <div class="col-3 mx-4 my-3">
+          <div class="col mx-4 my-3">
             <img src="img/Works/2.jpg" style="width: 300px" alt="2" />
           </div>
-          <div class="col-3 mx-4 my-3">
+          <div class="col mx-4 my-3">
             <img src="img/Works/3.jpg" style="width: 300px" alt="3" />
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-3 mx-4 my-3">
+          <div class="col mx-4 my-3">
             <img src="img/Works/4.jpg" style="width: 300px" alt="4" />
           </div>
-          <div class="col-3 mx-4 my-3">
+          <div class="col mx-4 my-3">
             <img src="img/Works/5.jpg" style="width: 300px" alt="5" />
           </div>
-          <div class="col-3 mx-4 my-3">
+          <div class="col mx-4 my-3">
             <img src="img/Works/6.jpg" style="width: 300px" alt="6" />
           </div>
         </div>
@@ -197,25 +210,24 @@
     </section>
 
     <!-- Akhir Works -->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
-    <!-- Footer -->
-    <footer>
+  </body>
+  <!-- Footer -->
+  <section style="background-color: #606060">
+    <div class="container">
       <div class="row py-4">
-        <div class="col-12 d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none mx-4">
-          <a href="#" style="text-decoration: none">
+        <div class="col-12 pb-3 text-decoration-none">
+          <a href="#" style="text-decoration: none" class="mb-3">
             <img src="img/logo2.png" alt="bram" />
-            <span class="fs-2 fw-bold mb-3" style="color: white">ram</span>
           </a>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 d-flex justify-content-end">
-          <img src="img/social/facebook.png" class="mx-1" alt="facebook" />
-          <img src="img/social/instagram.png" class="mx-1" alt="instagram" />
-          <img src="img/social/twitter.png" class="mx-1" alt="Twitter" />
-          <img src="img/social/whatsapp.png" class="mx-1" alt="Whatsapp" />
+        <div class="col-12 d-flex justify-content-end mb-4">
+          <a href="#"><img src="img/social/facebook.png" class="mx-1" alt="facebook" /></a>
+          <a href="#"><img src="img/social/instagram.png" class="mx-1" alt="instagram" /></a>
+          <a href="#"><img src="img/social/twitter.png" class="mx-1" alt="Twitter" /></a>
+          <a href="#"><img src="img/social/whatsapp.png" class="mx-1" alt="Whatsapp" /></a>
         </div>
       </div>
       <div class="row">
@@ -225,8 +237,8 @@
           </p>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <!-- Akhir Footer -->
-  </body>
+  <!-- Akhir Footer -->
 </html>
